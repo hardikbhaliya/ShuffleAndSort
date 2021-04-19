@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <title>Shuffle And Sort</title>
+        <link rel="stylesheet" href="./css/shuffle-sort.css">
+        <script src="./js/shuffle-sort.js"></script>
+    </head>
+    <body>
+        <div class="shuffle col-md-12">
+            <header class="bg-clr">
+                <h3>Shuffle and Sort</h3>
+            </header>
+            <div class="col-md-4 col-sm-4 col-sm-push-8 col-md-push-8">
+                <div class="row">
+                    <div class="col-md-12 col-xs-6 col-sm-12">
+                        <button class="btn btn-primary" onclick="shuffleAndSortObject.shuffle()">Shuffle</button>
+                    </div>
+                    <div class="col-md-12 col-xs-6 col-sm-12"> 
+                        <button class="btn btn-primary" onclick="shuffleAndSortObject.sort()">Sort</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8 col-sm-pull-4 col-md-pull-4">
+                <div class="row text-center" id="shuffle"></div>
+            </div>
+            <div class="col-md-12 col-sm-4">
+                <i>Shuffle and Sort by {{ Hardik Bhaliya }}</i>
+            </div>
+        </div>
+    </body>
+</html>
